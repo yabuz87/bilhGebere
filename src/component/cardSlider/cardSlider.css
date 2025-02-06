@@ -1,0 +1,45 @@
+.slider {
+    width: 700px;
+    height:auto;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+    text-align: center;
+    /* background-color: #f5f5f5; */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .indicators {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
+  
+  .indicators span {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .indicators .active {
+    background-color: #333;
+  }
+  

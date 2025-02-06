@@ -1,0 +1,14 @@
+.home-component{
+    display: flex;
+    flex:1 1;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .sign-up-img {
+    width: 80%;
+    height:84vh;
+    object-fit: cover;
+  }
+  

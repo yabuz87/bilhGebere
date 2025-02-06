@@ -1,0 +1,45 @@
+.nav-bg {
+    background-color: #dee8de;
+    
+    
+  }
+  .logo-img
+  {
+    width:50px;
+    
+    border-radius: 200px;
+  }
+  .nav-container {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    color: #cde6cd;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    font-size: 20px;
+    cursor:pointer;
+    font-weight: 500;
+    justify-content: center;
+    width: 75%;
+  }
+  
+  .nav-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-brand,
+  .navbar-text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .login-button {
+    cursor: pointer;
+    margin-right:70px;
+  }
+  
