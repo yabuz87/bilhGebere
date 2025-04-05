@@ -1,5 +1,5 @@
 import React from 'react'
-import "./signup.css"
+import "./Signup.css"
 import SignupForm from "../signup/signupform/SignupForm"
 import img1 from "../../assets/img1signup.jpg";
 

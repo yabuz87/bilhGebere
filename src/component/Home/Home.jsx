@@ -1,6 +1,6 @@
 import React from 'react';
 import CardSlider from '../cardSlider/cardSlider';
-import './home.css';
+import './Home.css';
 import img1 from '../../assets/growingSeedling.jpg';
 
 const Home = () => {

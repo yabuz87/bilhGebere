@@ -1,7 +1,7 @@
 import React from 'react'
 import "../../App.css"
 import { useNavigate } from 'react-router-dom';
-import "./navbar.css"
+import "./Navbar.css"
 import logo from "../../assets/logo2.webp";
 const Navbar = () => {
   const navigate=useNavigate();
